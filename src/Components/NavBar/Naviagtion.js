@@ -14,12 +14,22 @@ class Navigation extends Component {
         <div className="navbar_logo"></div>
         <div className="navbar_locator">
           <div className="navbar_locatorImage"></div>
-          <div className="navbar_location">Banglore</div>
+          <div className="navbar_location">Bangalore</div>
         </div>
-        <div className="navbar_searchmain">
-            <div></div>
-            <div className="navbar_searchbar" input="text"></div>
-            <div></div>
+        <div className="navbar__searchcomponent">
+           <div>
+            <select className="nav_dropdown">
+            <option value="All">All</option>
+                            <option value="Alexa">Alexa</option>
+                            <option value="Books">Books</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Beauty">Beauty</option>
+                            <option value="Clothes">Clothes</option>
+            </select>
+            </div>   
+          <div>
+            <input type="text" className="navbar_searchbox" />
+          </div>
         </div>
       </div>
     );
