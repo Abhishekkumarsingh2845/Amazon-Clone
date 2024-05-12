@@ -1,0 +1,37 @@
+.navbar_component {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display:flex;
+}
+
+.navbar_logo {
+    background: url('https://ik.imagekit.io/az3s8l7pvm/amazon-image/sprite_350x.png?updatedAt=1715533210824')  no-repeat -9px -50px;; 
+   
+	width: 98px;
+	height: 31px;
+    margin-left:-51px;
+    margin-top: 22px;
+}
+.navbar_locator {
+    display: flex;
+    margin: 20px;
+}
+.navbar_location {
+    color:white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.navbar_locatorImage {
+    background: url('https://ik.imagekit.io/az3s8l7pvm/amazon-image/sprite_350x.png?updatedAt=1715533210824') no-repeat -70px -305px;
+	width: 19px;
+	height: 22px;
+}
+.navbar_searchmain{
+    display: flex;
+}
+.navbar_searchbar {
+     height:38px;
+     width: 648px;
+     color:white;
+}
